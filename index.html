@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratsiya</title>
+</head>
+<body>
+    
+    <h1>Ro'yhatdan o'tish</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Ro'yhatdan o'tish</legend>
+
+            <label for="name">Ism</label>
+            <input type="text" placeholder="Ism kiriting" required id="name">
+
+            <label for="pass">Parol</label>
+             <input type="password"placeholder="Parol kiriting" required id="pass">
+            <br> <br>
+
+            <label for="mail">Pochta</label>
+             <input type="email"placeholder="Pochta kiritng" required id="mail">
+
+             <label for="phone">Telefon</label>
+            <input type="number"placeholder="Telefonni kiriting" required id="phone">>
+             <br>  <br>
+
+
+            <input type="submit" value="Yuborish">
+            <input type="reset" value="Tozalash">
+
+        </fieldset>
+
+      <form action="">
+        <fieldset>
+            Jinsingiz?
+            <br>
+            <label for="man">Erkak</label>
+            <input type="radio"name="gender"value="man"id="man">
+
+            <label for=""></label>
+            <label for="women">Ayol</label>
+            <input type="radio"name="gender"value="women"id="women">
+            <br> <br>
+
+            Qaysi davlatdansiz? <br>
+            <select name="" id="">
+                <option value="">O'zbekiston</option>
+                <option value="">AQSH</option>
+                <option value="">ROssiya</option>
+                <option value="">Qozog'iston</option>
+            </select>
+            <br> <br>
+
+            <select name="" id="">
+                <option value="">Kun</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                
+            </select>
+            <br> <br>
+
+            Dasturlash tilini tanlang!
+            <input list="web">
+            <datalist id="web">
+                <option value="JavaScript"></option>
+                <option value="Java"></option>
+                <option value="c++"></option>
+                <option value="Php"></option>
+                <option value="Python"></option>
+            </datalist>
+            <br> <br>
+
+
+
+        </fieldset>
+
+        <br> <br>
+
+        <fieldset>
+            <input type="file"> <br>
+            <input type="color"> <br>
+            <input type="time"> <br>
+            <input type="date"> <br>
+            <input type="range"> <br>
+            <br> <br>
+
+            <input type="text" maxlength="5">
+            <br> <br>
+        </fieldset>
+    </form>
+
+
+
+</body>
+</html>
